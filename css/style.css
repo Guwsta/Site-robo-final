@@ -127,36 +127,6 @@ a:hover {
     gap: var(--spacing-lg);
 }
 
-.btnA,
-.btnB {
-    color: var(--color-white);
-    padding: 0.3rem;
-    transition: 0.3s;
-}
-
-.btnA {
-    background-color: var(--color-orange);
-    border: 1px solid var(--color-orange);
-}
-
-.btnA:hover {
-    color: var(--color-dark);
-    background-color: var(--color-white);
-    border: 1px solid var(--color-dark);
-    box-shadow: 0 0 1rem var(--color-gray-light);
-}
-
-.btnB {
-    background-color: var(--color-dark-2);
-    border: 1px solid var(--color-gray-light);
-}
-
-.btnB:hover {
-    color: var(--color-dark);
-    background-color: var(--color-orange);
-    border: 1px solid var(--color-orange);
-    box-shadow: 0 0 1rem var(--color-orange-light);
-}
 
 .hero p {
     width: 90%;
@@ -585,7 +555,11 @@ a:hover {
     }
 
     .robo-text p {
-        width: 90%;
+        /* width: 90%; */
+    }
+
+    .box h2 {
+        font-size: 1.5rem;
     }
 
     .galeria-img {
@@ -594,9 +568,7 @@ a:hover {
 }
 
 @media(width<=768px) {
-    .btn-responsivo a {
-        font-size: 10px;
-    }
+
 
     .hero-text h3 {
         width: 30%;
@@ -607,10 +579,6 @@ a:hover {
         width: 90%;
     }
 
-    .robo-text h2 {
-        font-size: 1.8rem;
-    }
-
     .robo-text p {
         font-size: var(--font-xsm);
     }
@@ -619,16 +587,24 @@ a:hover {
         font-size: 10px;
     }
 
-    .box h2{
-        font-size: 1.5rem;
-    }
-
     .arma img {
         width: 50%;
     }
 
+    .box h2 {
+        font-size: var(--font-sm);
+    }
+
     .box-content {
         width: 110%;
+    }
+
+    .box-content h3 {
+        font-size: 0.8rem;
+    }
+
+    .box-content p {
+        font-size: 0.6rem;
     }
 
     .galeria-img {
@@ -652,16 +628,28 @@ a:hover {
 }
 
 @media (width<=576px) {
+    .header h2 {
+        padding-right: 20px;
+    }
 
     .header a {
         font-size: 0.8rem;
     }
 
     .header h2 {
-        font-size: var(--font-sm);
+        font-size: 0.6rem;
     }
 
-     .tabela-hardware p {
+    .hero-text h3 {
+        width: 80%;
+        font-size: 10px;
+    }
+
+    .responsivo-nav a {
+        font-size: 0.4rem;
+    }
+
+    .tabela-hardware p {
         font-size: 8px;
     }
 
@@ -671,6 +659,10 @@ a:hover {
 
     .hero-text h3 {
         margin-top: 50px;
+    }
+
+    .box h2 {
+        font-size: 1rem;
     }
 
     .box-video iframe {
