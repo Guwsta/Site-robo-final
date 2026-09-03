@@ -135,7 +135,7 @@ a:hover {
 
 .container {
     display: flex;
-    min-height: 100vh;
+    min-height: auto;
     border-top: 2px solid var(--color-dark);
 }
 
@@ -154,6 +154,7 @@ a:hover {
 }
 
 .robo {
+    padding: var(--spacing-sm);
     background-color: var(--color-dark-2)
 }
 
@@ -249,7 +250,7 @@ a:hover {
 
 .hardware {
     background-color: var(--color-dark-2);
-    padding: var(--spacing-md);
+    padding: var(--spacing-lg);
 }
 
 .flex-hardware {
@@ -413,7 +414,7 @@ a:hover {
 .grid-grupo {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 300px;
+    grid-auto-rows: 250px;
     gap: var(--spacing-lg);
     width: 80%;
 }
@@ -472,6 +473,13 @@ a:hover {
     margin-left: 5px;
 }
 
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media(width <=1200px) {
     .header {
         padding-inline: var(--spacing-md);
@@ -486,7 +494,7 @@ a:hover {
     }
 
     .hero-text {
-        width: 50%;
+        width: 60%;
     }
 
     .hero-text p {
@@ -510,8 +518,6 @@ a:hover {
         grid-template-columns: 1fr;
     }
 
-
-
     .grid-grupo {
         grid-template-columns: 1fr 1fr;
         gap: var(--spacing-md);
@@ -526,8 +532,7 @@ a:hover {
     }
 
     .hero-text h3 {
-        width: 40%;
-        margin-top: 10px;
+        width: 60%;
     }
 
     .hero-text h1 {
@@ -565,9 +570,8 @@ a:hover {
 
 @media(width<=768px) {
 
-
     .hero-text h3 {
-        width: 30%;
+        width: 40%;
         font-size: 10px;
     }
 
@@ -624,25 +628,22 @@ a:hover {
 }
 
 @media (width<=576px) {
-    .header h2 {
-        padding-right: 20px;
-    }
-
-    .header a {
-        font-size: 0.8rem;
+    .header {
+        gap:20px;
+        height: 6dvh;
     }
 
     .header h2 {
-        font-size: 0.6rem;
+        font-size: var(--font-sm);
     }
 
     .hero-text h3 {
-        width: 80%;
+        width: 65%;
         font-size: 10px;
     }
 
     .responsivo-nav a {
-        font-size: 0.4rem;
+        font-size: 0.6rem;
     }
 
     .tabela-hardware p {
