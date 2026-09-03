@@ -554,10 +554,6 @@ a:hover {
         margin-bottom: var(--spacing-sm);
     }
 
-    .robo-text p {
-        /* width: 90%; */
-    }
-
     .box h2 {
         font-size: 1.5rem;
     }
