@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMO</title>
+
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+
+    <!-- CHAMADA DA CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- CHAMADA DA GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sekuya&display=swap"
+        rel="stylesheet">
+
+    <!-- CHAMADA FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <!-- Início Header -->
+    <header class="header">
+        <h2>BMO</h2>
+        <nav>
+            <ul>
+                <li><a href="#go-home">Home</a></li>
+                <li><a href="#go-robo">Robô</a></li>
+                <li><a href="#go-arma">Arma</a></li>
+                <li><a href="#go-hardware">Hardware</a></li>
+                <li><a href="#go-galeria">Galeria</a></li>
+                <li><a href="#go-video">Vídeo</a></li>
+                <li><a href="#go-equipe">Equipe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fim Header -->
+
+    <!-- Início Hero -->
+    <section class="hero" id="go-home">
+        <div class="hero-text">
+            <h3 class="text-orange ">Robótica de combate</h3>
+            <h1>Construindo o futuro da</h1>
+
+            <h1 class="text-orange">robótica de combate</h1>
+            <p>Conheça o projeto desenvolvido pela nossa equipe: engenharia, estratégia e potência em cada detalhe.
+            </p>
+            <ul class="btn-responsivo">
+                <li><a class="btnA" href="#go-galeria">Ver galeria</a></li>
+                <li><a class="btnB" href="#go-robo">Sobre o projeto</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- Fim Hero -->
+
+    <!-- Início Container Robô -->
+    <section class="container robo" id="go-robo">
+        <div class="robo-text">
+            <h2>NOSSO ROBÔ</h2>
+            <p>
+                O BMO é um protótipo de robô funcional desenvolvido para a RoboCup da FIAP. Com chassi compacto que
+                combina engenharia robusta com criatividade aplicada à competição acadêmica.
+            </p>
+            <div class="info">
+                <p>Dimensões:</p>
+                <p>30x30x20 cm</p>
+            </div>
+        </div>
+        <img src="./Images/Gemini_Generated_Image_5duvmk5duvmk5duv.jpg" alt="imagem do BMO" class="images">
+    </section>
+    <!-- Fim Container Robô -->
+
+    <!-- Início Container Arma -->
+    <section class="container arma" id="go-arma">
+        <img src="./Images/imagem-robô-06.jpg" alt="Imagem da arma do BMO" class="images">
+        <div class="box">
+            <h2>Sistema de Acionamento da Arma </h2>
+            <article class="box-content">
+                <h3>Como funciona</h3>
+                <p>Um motor acoplado a base empurra a haste para fora do chassi, percorrendo
+                    cerca de 30cm até atingir o alvo. Antes de 15 segundos de ativação, a haste retorna para
+                    dentro do chassi</p>
+            </article>
+            <article class="box-content">
+                <h3>Modo de Acionamento</h3>
+                <p>O disparo é ativado por sensores de contato, posicionados na parte frontal e
+                    traseira do robô. Ao detectar toque físico, o circuito aciona o mecanismo de avanço da haste.</p>
+            </article>
+        </div>
+    </section>
+    <!-- Fim Container Arma -->
+
+    <!-- Início Container Hardware -->
+    <section class="container hardware" id="go-hardware">
+        <div class="flex-hardware">
+            <h2>Hardware</h2>
+            <h3>Componentes do BMO</h3>
+            <div class="grid-hardware">
+                <div class="tabela-hardware">
+                    <h3>Componentes</h3>
+                    <p class="linha-1">Arduino MEGA 2560</p>
+                    <p class="linha-2">Fita isolante</p>
+                    <p class="linha-1">Jumper Macho-Macho de 20cm</p>
+                    <p class="linha-1">Jumper Macho-Fêmea de 20cm</p>
+                    <p class="linha-2">Case para 6 pilhas AA</p>
+                    <p class="linha-1">Shield para 4 motores</p>
+                    <p class="linha-2">Módulo Bluetooth HC-05</p>
+                    <p class="linha-1">Roda boba</p>
+                    <p class="linha-2">Motores DC com rodas</p>
+                    <p class="linha-1">Baterias recarregáveis 18650</p>
+                    <p class="linha-2">Soquete de baterias 18650</p>
+                    <p class="linha-1">Carregador para bateria 18650</p>
+                    <p class="linha-2">Chave alavanca</p>
+                    <p class="linha-1">Chave de fim de curso</p>
+                </div>
+                <div class="tabela-quantidade">
+                    <h3>Quantidade</h3>
+                    <p class="linha-1">1</p>
+                    <p class="linha-2">1</p>
+                    <p class="linha-1">40</p>
+                    <p class="linha-1">40</p>
+                    <p class="linha-2">1</p>
+                    <p class="linha-1">1</p>
+                    <p class="linha-2">1</p>
+                    <p class="linha-1">2</p>
+                    <p class="linha-2">2</p>
+                    <p class="linha-1">3</p>
+                    <p class="linha-2">1</p>
+                    <p class="linha-1">1</p>
+                    <p class="linha-2">1</p>
+                    <p class="linha-1">4</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Container Hardware -->
+
+    <!-- Início Container Galeria -->
+    <section class="container galeria" id="go-galeria">
+        <h2>Galeria</h2>
+        <div class="galeria-img">
+            <div class="galeria-items">
+                <img src="./Images/Imagem-robô-01.JPG" alt="Shield para controle dos motores do BMO">
+                <p>Controle dos motores - Shield responsável pela conexão e acionamento dos motores utilizados no chassi
+                    do BMO.</p>
+            </div>
+            <div class="galeria-items">
+                <img src="./Images/imagem-robô-02.jpg" alt="Componentes eletrônicos utilizados na montagem do robô BMO">
+                <p>Componentes eletrônicos - Conjunto de componentes utilizados na construção e no funcionamento do
+                    BMO.</p>
+            </div>
+            <div class="galeria-items">
+                <img src="./Images/imagem-robô-03.jpg" alt="Placa Arduino e componentes eletrônicos">
+                <p>Sistema eletrônico - Placa Arduino e demais componentes responsáveis pelo controle e funcionamento do
+                    robô.</p>
+            </div>
+            <div class="galeria-items">
+                <img src="./Images/imagem-robô-04.jpg" alt="Chassi do robô BMO com motores e rodas instalados">
+                <p>Chassi e locomoção — Estrutura do robô com motores, rodas e componentes mecânicos instalados.</p>
+            </div>
+            <div class="galeria-items">
+                <img src="./Images/imagem-robô-05.jpg"
+                    alt="Estrutura externa do robô BMO durante o processo de montagem">
+                <p>Estrutura do robô — Registro do processo de montagem do chassi e desenvolvimento da estrutura externa
+                    do BMO.</p>
+            </div>
+            <div class="galeria-items">
+                <img src="./Images/imagem-robô-06.jpg"
+                    alt="Robô BMO montado e equipado com sua estrutura e sistema de acionamento">
+                <p>BMO finalizado — Protótipo completo com estrutura, sistema de locomoção e mecanismo de acionamento
+                    instalados.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Container Galeria -->
+
+    <!-- Início Container video -->
+    <section class="container video" id="go-video">
+        <div class="flex-video">
+            <h2>Vídeos do BMO</h2>
+            <div class="grid-video">
+                <div class="box-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/i9BRaboO2Uk?si=WZCL7Ee5tO8BgtUc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3>Vídeo do BMO em movimento</h3>
+                </div>
+                <div class="box-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8saoohrfsPs?si=r-m_8cqkadUwbG-g"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3>Vídeo da construção do BMO</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Container Video -->
+
+    <!-- Início Container grupo -->
+    <section class="container grupo" id="go-equipe">
+        <h2>Integrantes da equipe</h2>
+        <p>BMO - RoboCup - 2026</p>
+        <div class="grid-grupo">
+            <div class="box-grupo">
+                <img src="./Images/Foto-Gustavo.jpg" alt="Foto do Gustavo">
+                <h3>Gustavo</h3>
+                <p>Especialista em Hardware</p>
+            </div>
+            <div class="box-grupo">
+                <img src="./Images/foto-Luan.jpg" alt="Foto do Luan">
+                <h3>Luan</h3>
+                <p>Programador</p>
+            </div>
+            <div class="box-grupo">
+                <img src="./Images/Foto-Pedro.jpg" alt="Foto do Pedro">
+                <h3>Pedro</h3>
+                <p>Especialista em Software</p>
+            </div>
+            <div class="box-grupo">
+                <img src="./Images/Foto-João.jpg" alt="Foto do João">
+                <h3>João</h3>
+                <p>Designer</p>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Container grupo -->
+
+    <!-- Início Footer -->
+    <footer class="footer">
+        <div>
+            <h2>BMO</h2>
+            <p>For RoboCup · FIAP · 2026</p>
+        </div>
+        <p><i class="fa-brands fa-instagram"></i></p>
+    </footer>
+    <!-- Fim Footer -->
+
+</body>
+
+</html>
