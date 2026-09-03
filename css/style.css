@@ -619,6 +619,10 @@ a:hover {
         font-size: 10px;
     }
 
+    .box h2{
+        font-size: 1.5rem;
+    }
+
     .arma img {
         width: 50%;
     }
@@ -657,8 +661,12 @@ a:hover {
         font-size: var(--font-sm);
     }
 
-    .linha-1 {
-        overflow: hidden;
+     .tabela-hardware p {
+        font-size: 8px;
+    }
+
+    .tabela-quantidade p {
+        font-size: 8px;
     }
 
     .hero-text h3 {
