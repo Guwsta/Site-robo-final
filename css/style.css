@@ -504,7 +504,7 @@ a:hover {
 
 @media(width <=1200px) {
     .header {
-        padding-inline: var(--spacing-sm);
+        padding-inline: var(--spacing-md);
     }
 
     .header ul {
